@@ -1,0 +1,8 @@
+.img-container{
+    width: 50vw;
+    border: 1px solid blue;
+    height: 50vh;
+    margin-bottom:4vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

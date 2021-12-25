@@ -21,8 +21,8 @@ class MainPage extends React.Component{
         return (
             <div className="flexing-center col main-box">
                 <div className="flexing-center space box">
-                     <h1>{this.state.likes}</h1>
-                     <h1>{this.state.dislikes}</h1>
+                     <h1>Nice: {this.state.likes}</h1>
+                     <h1>Not Nice: {this.state.dislikes}</h1>
                 </div>
                 <div className="flexing-center">
                      <CustomeImage counter={this.state.counter} zeroState={this.zeroState} likes={this.state.likes} dislikes={this.state.dislikes} />
